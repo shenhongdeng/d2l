@@ -25,4 +25,3 @@ x = torch.randint(10, (2, 2, 3))
 y = torch.randint(6, (2, 3, 4))
 z = torch.bmm(x, y)
 print(x.shape, y.shape, z.shape)
-
